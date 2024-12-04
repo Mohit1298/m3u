@@ -53,6 +53,7 @@ def save_to_json(data, output_path):
         json.dump(data, json_file, indent=4)
 
 if __name__ == '__main__':
+    print("hi")
     # URL of the M3U file
     m3u_file_url = input("http://starshare.org:8080/get.php?username=varun98&password=9876&type=m3u_plus&output=ts").strip()
     output_json_path = 'playlist.json'
